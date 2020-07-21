@@ -1,0 +1,56 @@
+.navigation{
+	display: flex;
+	justify-content: flex-end; /* разместим справа */
+	background: #008aff;
+}
+.navigation__item {
+color:#fff;
+padding:15px 10px;
+text-decoration:none;
+text-align:center;
+}
+
+@media (min-width:320px) {
+	.main__text{
+		font-size: 15px;
+	}
+	.navigation__item{
+		visibility: hidden;
+	}
+}
+
+@media (min-width:481px) {
+	.main__text{
+		font-size: 20px;
+	}
+}
+
+@media (min-width:641px) {
+	.main__text{
+		font-size: 25px;
+	}
+	.navigation__item{
+		visibility: visible;
+	}
+	.navigation__burger{
+		visibility: hidden;
+	}
+}
+
+@media (min-width:961px) {
+	.main__text{
+		font-size: 30px;
+	}
+}
+
+@media (min-width:1025px) {
+	.main__text{
+		font-size: 35px;
+	}
+}
+
+@media (min-width:1281px) {
+	.main__text{
+		font-size: 40px;
+	}
+}
